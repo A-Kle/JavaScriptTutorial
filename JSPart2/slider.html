@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+      <body>
+        {
+          background-color: #222222;
+          font-size: 24px;
+          color: white;
+        }
+      </body>
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="slider.js"></script>
+  </head>
+
+  <body onload="changeslide()">
+    <span onclick="setslider(1)" style="cursor:pointer;">[1]</span>
+    <span onclick="setslider(2)" style="cursor:pointer;">[2]</span>
+    <span onclick="setslider(3)" style="cursor:pointer;">[3]</span>
+    <span onclick="setslider(4)" style="cursor:pointer;">[4]</span>
+    <span onclick="setslider(5)" style="cursor:pointer;">[5]</span>
+    <div id="slider"></div>
+  </body>
+</html>
